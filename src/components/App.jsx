@@ -22,7 +22,9 @@ export class App extends Component {
   };
   
   componentDidUpdate(prevProps, prevState) {
-    if (this.state.images !== prevState.images) {
+    const nextImages = this.state.images;
+    const prevImages = prevState.images;
+    if (nextImages !== prevImages) {
       localStorage.setItem('images', JSON.stringify(this.state.images));
     }
   };
