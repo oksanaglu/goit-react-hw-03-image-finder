@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Modal from 'components/Modal';
+import Button from "components/Button";
 
 
 export class App extends Component {
