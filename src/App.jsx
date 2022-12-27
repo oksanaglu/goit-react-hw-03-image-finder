@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { toast } from 'react-toastify';
-import { SearchBar } from 'components/SearchBar/SearchBar';
+import SearchBar from 'components/SearchBar';
 import ImageGallery from 'components/ImageGallery';
 import Loader from 'components/Loader';
 import Button from 'components/Button';

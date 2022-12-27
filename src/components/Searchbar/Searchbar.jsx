@@ -2,7 +2,7 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
 import { MdSearch } from 'react-icons/md';
-import { SearchHeader, SearchForm, SearchFormInput, SearchButton } from './SearchBar.styled';
+import { SearchHeader, SearchForm, SearchFormInput, SearchButton } from './Searchbar.styled';
 
 
 
