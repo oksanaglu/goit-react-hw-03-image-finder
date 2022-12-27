@@ -14,7 +14,7 @@ export class Modal extends Component {
 
     componentDidMount() {
         // console.log('Modal componentDidMount');
-        window.addEventListener('keydown', this.handleKeyDown);   
+        window.addEventListener('keydown', this.handleKeyDown);
     };
 
     componentWillUnmount() {
@@ -46,5 +46,6 @@ export class Modal extends Component {
 
 }
 
-
 export default Modal;
+
+
