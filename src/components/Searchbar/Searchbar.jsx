@@ -1,10 +1,13 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
-import { MdSearch } from 'react-icons/md';
-import { SearchHeader, SearchForm, SearchFormInput, SearchButton } from './SearchBar.styled';
-
-
+import { MdImageSearch } from 'react-icons/md';
+import {
+  SearchHeader,
+  SearchForm,
+  SearchFormInput,
+  SearchButton,
+} from './SearchBar.styled';
 
 export class SearchBar extends Component {
   static propTypes = {
@@ -40,7 +43,7 @@ export class SearchBar extends Component {
       <SearchHeader>
         <SearchForm onSubmit={this.handleSubmit}>
           <SearchButton type="submit">
-            <MdSearch style={{ width: 25, height: 25 }} />
+            <MdImageSearch style={{ width: 30, height: 30 }} />
           </SearchButton>
 
           <SearchFormInput
@@ -59,4 +62,3 @@ export class SearchBar extends Component {
 }
 
 export default SearchBar;
-
