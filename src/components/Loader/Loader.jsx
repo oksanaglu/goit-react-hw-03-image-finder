@@ -1,10 +1,11 @@
-import { TailSpin } from 'react-loader-spinner';
+import { ThreeDots } from 'react-loader-spinner';
 import { LoaderStyled } from './Loader.styled';
 
 export const Loader = () => {
   return (
     <LoaderStyled>
-      <TailSpin />
+      <ThreeDots
+      />
     </LoaderStyled>
   );
 };

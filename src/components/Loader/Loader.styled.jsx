@@ -6,9 +6,6 @@ export const LoaderStyled = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 99;
-
-  &:hover,
-  &:focus {
-  background-color: #303f9f;
+ 
 }
 `;
